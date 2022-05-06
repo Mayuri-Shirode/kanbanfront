@@ -6,7 +6,9 @@ import { BodycomponentComponent } from './bodycomponent/bodycomponent.component'
 import { TodocomponentComponent } from './bodycomponent/todocomponent/todocomponent.component';
 import { InprogresscomponentComponent } from './bodycomponent/inprogresscomponent/inprogresscomponent.component';
 import { CompletedcomponentComponent } from './bodycomponent/completedcomponent/completedcomponent.component';
-import { TaskcomponentComponent } from './bodycomponent/taskcomponent/taskcomponent.component';
+import { TaskcomponentComponent } from './taskcomponent/taskcomponent.component';
+
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { TaskcomponentComponent } from './bodycomponent/taskcomponent/taskcompon
     TodocomponentComponent,
     InprogresscomponentComponent,
     CompletedcomponentComponent,
-    TaskcomponentComponent
+    TaskcomponentComponent,
+
+
   ],
   imports: [
     BrowserModule
